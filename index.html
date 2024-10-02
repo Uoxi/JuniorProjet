@@ -9,32 +9,28 @@
 </head>
 <body>
     <header>
-        <img src="Logo_Association_Junior_Projet_-removebg-preview.png" alt="Logo de l'association" class="logo">
-        <div class="container">
-            <h1>Association Junior Projet</h1>
-            <a href="https://www.paypal.com/donate/?hosted_button_id=2BU469T9VV5MQ" class="don-btn">Faire un don</a> <!-- Bouton de don ajouté ici -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="A propos.html">À propos</a></li>
-                    <li><a href="#evenements">Événements</a></li>
-                    <li><a href="https://www.google.com/search?q=Association+Junior+Projet&stick=H4sIAAAAAAAA_-NgU1I1qDBJMjIwTEs1TDNNNklLTTS2MqhItTBLszA2NE81STI0NzdJWsQq6VhcnJ-cmViSmZ-n4FWal5lfpBBQlJ-VWgIAEKJ62EUAAAA&hl=fr&mat=CZI87ieDr9RTElcBEKoLaaYbMMf3GB4KFSxMo3-qjEJrOp6NPhss-ydoN-r8VBfeh0BB69P9LNa51G7s1N9GjFk8UQ1h-iV-TNhynLoOGqwfbDyxW8Kg2CiOxAe1Ag9Llas&authuser=0">Retrouvez-Nous</a></li>
-                    <li><a href="Nos Réseaux.html"></a></li>
-                    <li><a href="#contact">Nous Contacter</a></li>
-                </ul>
-            </nav>
-        </div>
+        <div class="nav">
+  <img src="Logo_Association_Junior_Projet_-removebg-preview.png" alt="Logo de l'association" class="logo">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="A propos.html">À propos</a>
+    <a href="#evenements">Événements</a>
+    <a href="https://www.google.com/search?q=Association+Junior+Projet&stick=H4sIAAAAAAAA_-NgU1I1qDBJMjIwTEs1TDNNNklLTTS2MqhItTBLszA2NE81STI0NzdJWsQq6VhcnJ-cmViSmZ-n4FWal5lfpBBQlJ-VWgIAEKJ62EUAAAA&hl=fr&mat=CZI87ieDr9RTElcBEKoLaaYbMMf3GB4KFSxMo3-qjEJrOp6NPhss-ydoN-r8VBfeh0BB69P9LNa51G7s1N9GjFk8UQ1h-iV-TNhynLoOGqwfbDyxW8Kg2CiOxAe1Ag9Llas&authuser=0">Retrouvez-Nous</a>
+    <a href="Nos Réseaux.html"></a>
+    <a href="#contact">Nous Contacter</a>
+  </div>
+</div>
     </header>
-
-    <script>
-        const menuToggle = document.getElementById('menu-toggle');
-        const navLinks = document.getElementById('nav-links');
-    
-        menuToggle.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
-    </script>
-
     <section id="accueil" class="hero">
         <div class="container">
             <h2>Bienvenue sur le site de l'Association Junior Projet</h2>
@@ -43,6 +39,7 @@
     </section>
 
     <section id="a-propos">
+       
         <div class="container">
             <h2>À propos de l'Association Junior Projet</h2>
             <p>Créée en 2019, l'association Junior Projet est une association à but non lucratif dont la mission principale est de venir en aide aux personnes en situation de précarité. Basée à Sevran, l’association agit sur tout l'île de France.</p>
