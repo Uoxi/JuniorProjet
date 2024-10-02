@@ -7,6 +7,16 @@ body {
   font-family: 'segoe ui';
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50px; /* Distance du bord droit */
+  top: 50%; /* Centrer verticalement */
+  transform: translateY(-50%); /* Centrer parfaitement */
+  color: #ffffff;
+}
+
 .nav {
   height: 50px;
   width: 100%;
