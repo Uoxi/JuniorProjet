@@ -286,3 +286,15 @@ footer {
     width: 100%;
     font-size: 0.9em;
 }
+
+a {
+    color: #ffbd59; /* Change la couleur du lien */
+    text-decoration: none; /* Supprime la décoration par défaut (souligné) */
+    transition: color 0.3s ease; /* Ajoute une transition fluide pour la couleur */
+}
+
+a:hover {
+    color: #ff9a22; /* Change la couleur lorsque le lien est survolé */
+    text-decoration: underline; /* Ajoute un soulignement lorsque l'utilisateur survole le lien */
+}
+
